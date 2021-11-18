@@ -1,0 +1,98 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
+.banner {
+  background-image: url("asset/mesjid.jpg");
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.lingkaran {
+  display: inline-block;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #ffa500;
+  box-sizing: border-box;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.lingkaran i {
+  position: relative;
+  padding-top: 20px;
+  border: 3px solid;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.banner p {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: lighter;
+  color: #090909;
+  font-size: 5vw;
+}
+
+.banner button {
+  font-family: "Patrick Hand", cursive;
+}
+
+.kegiatan {
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.tentang {
+  background-color: #f9f9f8;
+  background-size: cover;
+  padding-bottom: 80px;
+  color: black;
+}
+
+.tentang li {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.portfolio p {
+  font-size: 18px;
+  font-family: "Patrick Hand", cursive;
+}
+
+.bawah i {
+  color: #090909;
+  position: relative;
+  margin-left: 50px;
+}
+
+.judul {
+  color: #090909;
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.galeri {
+  margin-bottom: 225px;
+}
+
+.galeri p {
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+}
+
+.banner2 {
+  margin-top: 120px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+.kontak {
+  margin-top: 40px;
+}
