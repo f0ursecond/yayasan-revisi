@@ -3,7 +3,7 @@ $(".nav-link").on("click", function (e) {
   var tujuan = $(this).attr("href");
   var elemenTujuan = $(tujuan);
 
-  $("html , body").scrollTop(elemenTujuan.offset().top - 65);
+  $("html , body").scrollTop(elemenTujuan.offset().top - 55);
 
   e.preventDefault();
 });
@@ -12,7 +12,7 @@ $(".nav-link").on("click", function (e) {
 
 const scriptURL =
   "https://script.google.com/macros/s/AKfycbx2qfbF6hLShw5J1Po_Cocb_CUPm23Tq_1CrBm5eJLj_sY1FbQ8Rr17NBBp4gY0tkfQ/exec";
-const form = document.forms["yayasan-contact-form"];
+const form = document.forms["smk9-contact-form"];
 const btnSend = document.querySelector(".btn-send");
 const btnLoading = document.querySelector(".btn-loading");
 const myAlert = document.querySelector(".my-alert");

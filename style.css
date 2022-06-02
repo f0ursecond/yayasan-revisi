@@ -2,12 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
 
 .banner {
-  background-image: url("asset/mesjid.jpg");
+  background-color: #9e8fb2;
+background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
   background-size: cover;
-  padding-top: 20%;
+  
   padding-bottom: 20%;
   text-align: center;
   text-transform: uppercase;
@@ -34,7 +36,8 @@
 }
 
 .banner p {
-  font-family: "Didact Gothic", sans-serif;
+  letter-spacing: 5px;
+  font-family: 'Bebas Neue', cursive;
   font-weight: lighter;
   color: #090909;
   font-size: 5vw;
